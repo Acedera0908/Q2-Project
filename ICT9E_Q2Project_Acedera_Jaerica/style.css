@@ -1,0 +1,121 @@
+body {
+	/*Background Image*/
+	background-image: linear-gradient(#b0b0b080, #b0b0b080), url("https://i0.wp.com/meanderingmentor.com/wp-content/uploads/2023/06/Best-Things-to-Do-in-Vigan-Walk-along-the-Cobblestoned-Streets-of-Vigan-Meandering-Mentor.jpg?resize=1024%2C768&ssl=1");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+header {
+	background-color: #c0a186;
+	border-style: groove;
+}
+
+h1 {
+	font-family: Imprint MT Shadow; serif
+	color: #583101;
+	text-align: center;
+}
+
+h2 {
+	font-family: Bookman Old Style; serif
+	color: #6F4518;
+	text-align: center;
+}
+
+p {
+	font-family: Iskoola Pota; serif
+	color: #352208;
+	text-align: center;
+	text-align: justify;
+}
+
+footer {
+	row-gap: 15px;
+}
+
+/*"Boxes"*/
+.short-introduction {
+	box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+	background: rgba(192, 161, 134, 0.8);
+	width: 500px;
+	height: 120px;
+	padding: 13px;
+	margin-left: 540px;
+	margin-right: 540px;
+}
+.destination-box {
+	box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+	background: rgba(192, 161, 134, 0.8);
+	flex-wrap: wrap;
+	display: inline-flex;
+	padding: 30px;
+	margin-top: 5px;
+	margin bottom: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.button {
+	box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+	background: rgba(148, 118, 94, 0.7);
+	padding-top: 5px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 5px;
+	margin bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 290px;
+	height: 220px;
+}
+
+/*Destinations*/
+.places {
+	flex-wrap: wrap;
+	display: inline-flex;
+	row-gap: 15px;
+	column gap: 15px;
+
+}
+.image-formats {
+	width: 290px;
+	height: 220px;
+	box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+	padding: 10px;
+	background: rgba(148, 118, 94, 0.7);
+	margin-top: 5px;
+	margin bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+	.text-box {
+		box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+		background: rgba(148, 118, 94, 0.7);
+		padding-top: 5px;
+		padding-bottom: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-top: 5px;
+		margin bottom: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+		width: 290px;
+		height: 220px;
+	}
+
+.references {
+	box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+	background: rgba(148, 118, 94, 0.7);
+	padding-top: 5px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 150px;
+	margin bottom: 150px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: white;
+	row-gap: 15px
+}
